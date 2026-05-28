@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 # Load data
-df=pd.read_csv(r"F:\study programming\Python\Machine Learning\House_Price\House_price.csv")
+df=pd.read_csv("House_price.csv")
 # Define features and target
 X=df.drop(columns=["Price","Address"])
 Y=df["Price"]
