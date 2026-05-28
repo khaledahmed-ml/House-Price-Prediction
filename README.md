@@ -16,7 +16,7 @@ based on area income, house age, rooms, bedrooms and population.
 5. Evaluated model Accuracy
 6. Built an interactive input system to predict custom house prices
 
-## Code Explanation ( start from Line 33 to 49 )
+## Code Explanation ( Lines 33-49 )
 
 ### Ranges
 Getting the min and max of each feature directly from the dataset.
