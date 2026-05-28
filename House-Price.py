@@ -28,6 +28,10 @@ print(f"The Performance of train: {lr.score(X_train_scaled,Y_train)}")
 print(f"The Performance of test: {lr.score(X_test_scaled,Y_test)}")
 print("#"*50)
 #--------------------------
+#RMSE & MSE 
+print(f"Root Mean Squared Error= {root_mean_squared_error(Y_test,Y_pred)}")
+print(f"Mean Absolute Error= {mean_absolute_error(Y_test,Y_pred)}")
+#--------------------------
 #Ranges:
 ranges = {
 "income": (X["Avg. Area Income"].min(), X["Avg. Area Income"].max()),
