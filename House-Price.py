@@ -38,7 +38,6 @@ ranges = {
 }
 #--------------------------
 # Inputs 
-# Why we using float? Using 'int' may cause errors or lose precision, float is safer for ML inputs
 def get_input(name, min_val, max_val):
     while True:
         val = float(input(f"{name}: "))
