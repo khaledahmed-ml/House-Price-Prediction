@@ -47,8 +47,6 @@ Why float instead of int?
 - Pandas
 - NumPy
 - Scikit-Learn
-- Matplotlib
-
 ## How to Run
 1. Clone the repo
 2. Install dependencies: pip install -r requirements.txt
