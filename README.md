@@ -13,7 +13,7 @@ based on area income, house age, rooms, bedrooms and population.
 2. Split data into training and testing sets
 3. Scaled features using StandardScaler
 4. Trained Linear Regression model
-5. Evaluated model using R² score
+5. Evaluated model Accuracy
 6. Built an interactive input system to predict custom house prices
 
 ## Code Explanation ( start from Line 33 to 49 )
